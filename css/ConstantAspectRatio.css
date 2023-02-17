@@ -1,0 +1,38 @@
+.body {
+  background: #fffafa;
+}
+
+
+.container {
+  color: slategray;
+}
+
+
+.header {
+  background: orangered;
+}
+
+
+.div1 {
+  background: linen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  /** img is 183x275, height is width*275/183 **/
+  width: 28vw;
+  height: 42vw;
+}
+
+
+.div2 {
+  background: ivory;
+}
+
+
+.footer {
+  background: lightsalmon;
+}
