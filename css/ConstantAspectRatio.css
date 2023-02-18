@@ -2,37 +2,40 @@
   background: #fffafa;
 }
 
-
 .container {
+  font-size: 2vw;
   color: slategray;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 5vh auto 8vh;
+  min-height: 100vh;
 }
 
-
 .header {
+  grid-column: span 4;
   background: orangered;
 }
 
-
 .div1 {
+  grid-column: 2 / 3;
+  background: ivory;
+}
+
+.div2 {
   background: linen;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 img {
-  /** img is 183x275, height is width*275/183 **/
+  /** img is 183x275, height is width*240/183 **/
   width: 28vw;
-  height: 42vw;
+  height: 39vw;
 }
-
-
-.div2 {
-  background: ivory;
-}
-
 
 .footer {
+  grid-column: span 4;
   background: lightsalmon;
 }
